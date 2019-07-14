@@ -50,10 +50,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $imageURL= test_input($_POST["imageURL"]);
     }
 }
-
-
-
-
 function test_input($data) {
     $data = trim($data);
     $data = stripslashes($data);
