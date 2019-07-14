@@ -20,6 +20,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $bookErr= "book is required";
     } else {
         $book = test_input($_POST["book"]);
+
+
+
     }
     if (empty($_POST["writer"])) {
         $writerErr= "writer is required";
